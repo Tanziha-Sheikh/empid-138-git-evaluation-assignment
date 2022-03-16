@@ -2,7 +2,7 @@
 ## Description :- **Git Evaluation Assignment**
  
  In this git repository, I have created a index page, register page and login page using three branches :-
- 1)Main branch (2) Registeration branch (3) Login Branch.
+ 1)Master branch (2) Registeration branch (3) Login Branch.
 
  ## **About Git :-**
 
