@@ -1,0 +1,55 @@
+/* index page css */
+*{
+   box-sizing: border-box;
+}
+
+.body-wrapper{
+    background: linear-gradient(to right, #0f0c29, #302b63,#0f0c29);
+}
+
+.container{
+	background: rgb(145, 164, 228);
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+    text-align: center;
+    width:25%;
+    margin-left: 38%;
+    padding-bottom: 2%;
+}
+
+.page-title{
+    text-align: center;
+    color: blue;
+}
+
+.container-fluid{
+    text-align: center;
+    margin-top: 25%;
+}
+
+.logo{
+    margin-top: 10%;
+}
+
+.btn{
+    padding:0.5rem;
+    cursor: pointer;
+    width: 38%;
+	color: #fff;
+	background: #2e3fa1;
+	font-size: 1em;
+	font-weight: bold;
+    outline: none;
+	border: none;
+	border-radius: 5px;
+}
+
+.btn:hover{
+    background: #0e4ed8;
+}
+
+.btn-txt{
+    font-weight: 200;
+    font-size: larger;
+}
