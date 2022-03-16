@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register|Git-Evaluation</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        font-family: 'Jost', sans-serif;
+        background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    }
+
+    .container {
+        width: 350px;
+        height: 500px;
+        background: rgb(145, 164, 228);
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 5px 20px 50px #000;
+    }
+
+    .register {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    label {
+        color: #fff;
+        text-shadow: 0 0 10px #FF0000;
+        font-size: 2.3em;
+        justify-content: center;
+        display: flex;
+        margin: 60px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    input {
+        width: 60%;
+        height: 20px;
+        background: #e0dede;
+        justify-content: center;
+        display: flex;
+        margin: 20px auto;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+    }
+
+    button {
+        width: 60%;
+        height: 40px;
+        margin: 10px auto;
+        justify-content: center;
+        display: block;
+        color: #fff;
+        background: #2e3fa1;
+        font-size: 1em;
+        font-weight: bold;
+        margin-top: 20px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background: #0e4ed8;
+    }
+
+    .btn-cancel {
+        width: 60%;
+        height: 40px;
+        margin: 10px auto;
+        justify-content: center;
+        display: block;
+        color: #fff;
+        background: #c92828;
+        font-size: 1em;
+        font-weight: bold;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .btn-cancel:hover {
+        background-color: #FF0000;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="register">
+            <form>
+                <label for="check" aria-hidden="true">Sign up</label>
+                <input type="text" name="username" placeholder="User name" required="">
+                <input type="email" name="email" placeholder="Email" required="">
+                <input type="password" name="password" placeholder="Password" required="">
+                <input type="password" name="cpassword" placeholder="Confirm password" required="">
+                <button type="submit">Register</button>
+                <button class="btn-cancel">Cancel</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
